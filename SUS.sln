@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{D058481A-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Git", "Apps\Git\Git.csproj", "{F7F9D37D-78F4-4517-A49B-99654CE64883}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SUS.MvcFramework.Tests", "SUS.MvcFramework.Tests\SUS.MvcFramework.Tests.csproj", "{756C2FB6-18E5-4474-B3FB-A246C0A1415B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F7F9D37D-78F4-4517-A49B-99654CE64883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F9D37D-78F4-4517-A49B-99654CE64883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F9D37D-78F4-4517-A49B-99654CE64883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756C2FB6-18E5-4474-B3FB-A246C0A1415B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756C2FB6-18E5-4474-B3FB-A246C0A1415B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756C2FB6-18E5-4474-B3FB-A246C0A1415B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756C2FB6-18E5-4474-B3FB-A246C0A1415B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
