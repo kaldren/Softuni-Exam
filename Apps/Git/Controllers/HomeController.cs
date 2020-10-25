@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Git.Controllers
 {
+    using Git.Constants;
     using SUS.HTTP;
     using SUS.MvcFramework;
 
@@ -14,7 +15,7 @@ namespace Git.Controllers
         {
             if (this.IsUserSignedIn())
             {
-                return this.Redirect("/Repositories/All");
+                return this.Redirect(RedirectConst.AllRepositories);
             }
 
             return this.View();
